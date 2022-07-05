@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hawksbill Turtle</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href = "index.html">HOME</a></li>
+                    <li> <a href = "about.html">ABOUT</a></li>
+                    <li> <a href = "endanger.html">ENDANGERMENT</a></li>
+                    <li> <a href = "help.html">WHY THEY MATTER</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Endangered Hawksbill Turtle</h1>
+    </section>
+    
+    <section class = "danger">
+        <h3> The Endangerement of Hawksbil Turtle </h3>
+        
+        <div class= "row">
+            <div class = "col">
+                <h3> HUNTED </h3>
+                <p> 
+                    The hawksbill turtle is often hunted for its prized meat, shell and eggs. The tortoise shell is collected and can be carved into man made goods such as hair clips, combs and jewelry. Hawksbill eggs are also dug up on beaches for consumption and its meat is consumed in many countries. Despite the fact that the World Health Organization forbids the consumption of hawksbill turtle meat, the harvesting for human consumption still continues. As the hawksbills diets consist predominantly of toxic sea sponges, consuming its meat can cause neurotoxicity, kidney disease, liver cancer, and even death. 
+                    
+                    </p>
+                <img src = "target.png">
+            </div>
+            <div class = "col1">
+                <h3> CLIMATE CHANGE </h3>
+                <p>
+                    Climate change exposes sea turtles to risks regarding their habitats. As sea levels rise, we will see the appearance of stronger storms that destroy and erode the hawksbill turtles&#39 beach nesting habitats. Climate change will also cause warming oceans and different ocean currents; thus, climate change has the potential to introduce new predators to the hawksbill turtle. Additionally, climate change would warm beaches. As the gender of a sea turtle is determined through the temperature of the beach sand that the female sea turtle nests in, climate change could potentially be creating a shortage of male sea turtles. 
+                    </p>
+                <img src = "globe.png">
+            </div>
+            <div class = "col2">
+                <div class = "text"> 
+                <h3> MARINE DEBRIS </h3>
+                <p> Marine debris such as floating plastic bags or straws play a substantial role in the decreasing population of not only the hawksbill sea turtle, but also other marine species. According to the National Geographic, the amount of plastic trash that flows into the oceans every year is expected to nearly triple by 2040 to 29 million metric tons with 100 million marine animals dying each year from plastic waste alone. Not only does plastic contain toxic chemicals that can interfere with reproduction and cause diseases, but ingesting plastic can both block the movement of food within the gastrointestinal tract or fill the turtles stomach with plastic causing it to starve.
+                </p>
+            </div>
+                <img src = "plastic.png">
+            </div>
+        </div>
+
+    </section>
+
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

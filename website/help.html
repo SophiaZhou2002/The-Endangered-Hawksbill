@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hawksbill Turtle</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href = "index.html">HOME</a></li>
+                    <li> <a href = "about.html">ABOUT</a></li>
+                    <li> <a href = "endanger.html">ENDANGERMENT</a></li>
+                    <li> <a href = "help.html">WHY THEY MATTER</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Why The Hawksbill Turtle Matter</h1>
+    </section>
+    
+    <section class = "help">
+        <h3> The Impact of Hawksbill Turtle in the Ecosystem </h3>
+        <img src = "eco.jpg">
+        <p> As the hawksbill sea turtle is nearing extinction, many of the roles that were fulfilled by the hawksbill turtle will be unattended leaving a cascading effect on the oceanic ecosystem. Hawksbill sea turtles help maintain the health of coral reefs.
+            By consuming the  sponges on the coral reef, they prevent the sponges from overgrowing and suffocating the corals. Without the existence of the hawksbill sea turtle, sponges would likely dominate coral reef communities, declining the growth of corals. It is estimated one hawksbill turtle consumes 1,000 pounds of sea sponges every year.
+           
+           
+           </p>
+    
+
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
